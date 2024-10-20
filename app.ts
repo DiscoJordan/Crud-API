@@ -11,6 +11,6 @@ const numberWorker = cpus().length;
 if (isClusterMode) {
   console.log(`Welcome to CRUD API!\n(CLUSTER MODE)\nThere is ${numberWorker} workeres`);
 } else {
-
+    startServer(PORT);
   console.log(`Welcome to CRUD API\n(SINGLE MODE)`);
 }
