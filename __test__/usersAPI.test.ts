@@ -5,15 +5,15 @@ import { IRequestBody } from '../src/models/userModel';
 const request = supertest(server);
 
 const mockUser: IRequestBody = {
-  username: 'John Smith',
-  age: 35,
-  hobbies: ['mock tests'],
+  username: 'Loko',
+  age: 90,
+  hobbies: ['baseball'],
 };
 
 const updatedUser: IRequestBody = {
-  username: 'John Doe',
+  username: 'Joe Nowak',
   age: 40,
-  hobbies: ['unit testing', 'integration testing'],
+  hobbies: ['football', 'music'],
 };
 
 const expectUser = (received: unknown, expected: IRequestBody): void => {
