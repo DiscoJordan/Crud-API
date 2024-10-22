@@ -10,7 +10,7 @@ In addition, the application includes Jest unit tests, Webpack pipelining, clust
 
 2. Install dependencies `npm install`.
 
-3. Set the port value in the `.env` file.
+3. Set the port value in the `.env` file. (you should create this file)
 
 4. Start the application and run tests
 
